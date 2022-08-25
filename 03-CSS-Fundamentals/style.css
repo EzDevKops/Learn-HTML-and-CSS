@@ -88,14 +88,22 @@ aside {
   background-color: blue;
 } */
 
-.word-red {
-  color: rgb(216, 15, 15);
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
 }
 
-.word-blue {
-  color: blue;
+li:last-child {
+  font-style: italic;
 }
 
-.word-green {
-  color: green;
+li:nth-child(even) {
+  /* color: red; */
+}
+
+article p:last-child {
+  color: red;
 }
