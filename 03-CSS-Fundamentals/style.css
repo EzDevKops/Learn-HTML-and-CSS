@@ -215,6 +215,10 @@ button {
   bottom: 50px;
   right: 50px;
 }
+.red-heart {
+  color: red;
+  display: inline;
+}
 /* LVHA*/
 
 /* Resolving conflicts */
