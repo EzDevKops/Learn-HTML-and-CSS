@@ -209,7 +209,7 @@ nav a:link:last-child {
 button {
   font-size: 22px;
   padding: 20px;
-  curser: pointer;
+  cursor: pointer;
 
   position: absolute;
   /* top: 50px;
@@ -217,7 +217,7 @@ button {
   bottom: 50px;
   right: 50px;
 }
-.red-heart {
+.red-heart:first-letter {
   color: red;
   display: inline;
 }
